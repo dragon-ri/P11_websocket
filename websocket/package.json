@@ -1,0 +1,18 @@
+{
+  "name": "Scripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./socket_server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs-node": "^2.0.1",
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  }
+}
